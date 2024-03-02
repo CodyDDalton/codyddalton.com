@@ -7,7 +7,7 @@ function Header() {
             <nav className="Nav">
                 <a className="Nav-item" href="/">Home</a>
                 <a className="Nav-item" href="/">Education</a>
-                <a className="Nav-item" href="/">Projects</a>
+                <a className="Nav-item" href="/project-gallery">Projects</a>
                 <a className="Nav-item" href="/">Hire me</a>
             </nav>
         </div>

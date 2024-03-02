@@ -432,6 +432,122 @@
     color:#15223B;
     background-color: #53E745;
   }
+  /* Projects */
+  .Projects-top-section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+  .Projects-table {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .Projects-col {
+    display:flex;
+    flex-direction: column;
+    width:25%;
+  }
+  .Projects-table-item {
+    font-size: 2rem;
+    margin-top:5%;
+  }
+  .Projects-table-item:hover {
+    color:#53E745;
+    text-decoration: underline;
+    cursor:pointer;
+  }
+  .Project {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .Project-title {
+    font-size:2.75rem;
+    text-align:center;
+  }
+  .Project-list-div {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:50%;
+    margin-left:-5%;
+  }
+  .Project-list {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+    width:50%;
+  }
+  .List-title{
+    font-size:1.5rem;
+    font-weight:900;
+    margin-bottom:-5%;
+    margin-left:5%;
+  }
+  .Techs-list{
+    letter-spacing: 2px;
+  }
+  .Skills-list{
+    letter-spacing: 2px;
+  }
+  .Project-pic-div {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .Screenshots-title {
+    font-size:2rem;
+  }
+  .Pic-gallery {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:65%;
+    margin-left:-2%;
+    margin-bottom:2%;
+  }
+  .Screenshots {
+    width:25%;
+    border:2px solid black;
+  }
+  .Screenshots:hover {
+    scale:1.1;
+  }
+  .Project-github {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:30%;
+    cursor:pointer;
+    margin-bottom:2%;
+  }
+  .Github-icon {
+    width:45px;
+  }
+  .Github-link {
+    font-size:1.5rem;
+    color:white;
+    text-decoration: none;
+  }
+  .Project-github:hover {
+    .Github-icon {
+      filter:invert(200%)
+    }
+    .Github-link {
+      color:#53E745;
+      text-decoration: underline;
+    }
+  }
   /* Footer */
   .Footer {
     width:100%;

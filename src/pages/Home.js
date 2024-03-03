@@ -1,7 +1,14 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import React, {useEffect} from 'react';
 
 function Home(){
+
+    useEffect(() => {
+        localStorage.clear();
+        localStorage.setItem("project", "CodyPortfolio");
+    }, []);
+
     return(
         <div className="App">
             <Header />

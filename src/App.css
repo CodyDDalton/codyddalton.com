@@ -445,6 +445,7 @@
     width:100%;
     align-items: center;
     justify-content: center;
+    
   }
   .Projects-col {
     display:flex;
@@ -454,10 +455,12 @@
   .Projects-table-item {
     font-size: 2rem;
     margin-top:5%;
+    color:white;
+    list-style:none;
   }
-  .Projects-table-item:hover {
-    color:#53E745;
-    text-decoration: underline;
+  .Table-item-butn {
+    background-color: transparent;
+    border:none;
     cursor:pointer;
   }
   .Project {
@@ -468,8 +471,13 @@
     justify-content: center;
   }
   .Project-title {
-    font-size:2.75rem;
+    font-size:3.5rem;
     text-align:center;
+    border: 3px solid #53E745;
+    width:70%;
+    padding:10px;
+    background-color: #53E745;
+    color:#15223B;
   }
   .Project-list-div {
     display:flex;
@@ -483,7 +491,14 @@
     flex-direction: column;
     align-items: center;
     line-height: 40px;
+    list-style: none;
     width:50%;
+  }
+  .Project-choice {
+    font-size:1.5rem;
+  }
+  .Project-choice:hover {
+    color:#53E745;
   }
   .List-title{
     font-size:1.5rem;

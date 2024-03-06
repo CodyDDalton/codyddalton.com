@@ -4,7 +4,13 @@ import Github from "../images/github.png";
 function neurolog() {
     return(
         <div className="Project">
-            <p className="Full-p"><b className="First-word">Neurolog</b> was my final project during my time at Full Sail University. Over three terms, I chiseled away at this project with my mind on a web app idea close to my heart. We had to start out with a concept - mine was a mental health journaling application. From there, we had to conduct market research, choose a tech stack, and create click-through prototypes; all to support a well-constructed and highly detailed project proposal. With approval, I continued working to flesh out my idea. </p>
+            <p className="Full-p"><b className="First-word">
+                Neurolog</b> was the capstone project for my final months at Full Sail. Over three terms,
+                I chiseled away at this project with my mind on an app idea close to my heart. To start,
+                I had to dream up a basic concept - mine was a mental health journaling app. From there, I 
+                conducted market research, chose a tech stack, and created a click-through prototype on Figma --
+                all to support a well-constructed project proposal. With approval, I continued working to flesh out
+                my concept. </p>
             <div className="Project-pic-div">
                 <h3 className="Screenshots-title">Screenshots</h3>
                 <div className="Pic-gallery">
@@ -13,7 +19,11 @@ function neurolog() {
                     <img className="Screenshots" src={Photo} alt="missing" />
                 </div>
             </div>
-            <p className="Full-p"><b className="First-word">I</b> set out to create something with a soothing aesthetic and a friendly interface. With the app, the user could fill out simple mood logs, answer randomly generated journaling prompts, or write up free-form entries about anything they wanted. The friendly interface - a robot mascot named Astrid - would provide helpful suggestions and remind the user to re-read old entries and reflect on what has changed and what has stayed the same.</p>
+            <p className="Full-p"><b className="First-word">
+                For</b> the design, I aimed for a soothing aesthetic and a friendly interface. Functionally, I wanted there
+                to be a means to fill out simple mood logs, answer randomly generated journaling prompts, and write up free-form
+                entries about anything under the sun. The friendly interface - a robot mascot named Astrid - would provide helpful
+                suggestions -- reminding the user to re-read old entries and reflect on what had changed and what had stayed the same.</p>
 
             <div className="Project-list-div">
                 <div className="Project-list">
@@ -38,10 +48,12 @@ function neurolog() {
                 </div>
             </div>
             
-            <p className="Full-p"><b className="First-word">My</b> initial plans also included keyword recognition and AI-derived recommendations, but my eyes were a bit big for my stomach. Maybe one day!</p>
+            <p className="Full-p"><b className="First-word"
+                >My</b> initial plans also included keyword recognition and AI-derived recommendations, but my eyes were a bit big
+                for my proverbial stomach. Maybe one day I'll revisit this one with new skills to aid the rest of my vision!</p>
             <div className="Project-github">
                 <img className="Github-icon" src={Github} alt="Neurolog on Github" />
-                <a className="Github-link" href="/">Neurolog on Github</a>
+                <a className="Github-link" href="https://github.com/CodyDDalton/neurolog" style={{marginLeft:"-25%"}}>Neurolog on Github</a>
             </div>
         </div>
     )

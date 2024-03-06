@@ -1,9 +1,9 @@
+import Logo from '../components/images/AboveBeyondLogo.png';
 
 function Header() {
     return(
         <div className="Header">
-            <div className="Logo">
-            </div>
+            <img className="Logo" src={Logo} alt="Cody D Dalton dot Com" />
             <nav className="Nav">
                 <a className="Nav-item" href="/">Home</a>
                 <a className="Nav-item" href="/">Education</a>

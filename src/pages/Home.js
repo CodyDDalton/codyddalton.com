@@ -32,21 +32,22 @@ function Home(){
                 <div className="Med-p-div">
                     <p className="Med-p">
                         <b className="First-word">I</b> have a bachelor’s degree in Web Development from Full Sail
-                    University. Lorem ipsum dolor amet, consectetur adipiscing, sed do eiusmod tempor incidid. Duis 
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    University. I spent two-and-a-half years as an online student there from May of 2021 to December
+                    of 2023. Since graduating, I’ve continued my education by pursuing and attaining a handful of 
+                    certifications - as well as further refining my resume and the digital portfolio you’re reading now.
+
                     </p>
-                    <a className="Read-more" href="/">Read more...</a>
+                    <a className="Read-more" href="/education">Read more...</a>
                 </div>
                 <div className="Med-p-div">
                     <p className="Med-p">
-                        <b className="First-word">During </b>
-                        my time at Full Sail, I completed several larger-scale projects. Lorem ipsum dolor amet, 
-                        consectetur adipiscing, sed do eiusmod tempor incidid. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <b className="First-word">During </b>my time at Full Sail, I completed several large-scale projects
+                        - including a custom interface for receiving and displaying query calls to the Spotify Web API; a 
+                        game made for and playable on the Smart TV; and a capstone project conducting research, writing proposals,
+                        and building a full-stack application from the ground up.
+
                     </p>
-                    <a className="Read-more" href="/">Read more...</a>
+                    <a className="Read-more" href="/project-gallery">Read more...</a>
                 </div>
             </div>
             <div className="Home-bottom">

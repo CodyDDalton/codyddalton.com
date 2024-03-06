@@ -12,31 +12,23 @@ function Projects(){
 
     useEffect(() => {
         if(localStorage.getItem("project") === "CodyPortfolio"){
-            
             document.getElementById("CodyPortfolio").style.backgroundColor ="#53E745";
             document.getElementById("CodyPortfolioB").style.color ="#15223B";
-            
             setProject(<CodyPortfolio />)
         }
         if(localStorage.getItem("project") === "Neurolog"){
-            
             document.getElementById("Neurolog").style.backgroundColor ="#53E745";
             document.getElementById("NeurologB").style.color ="#15223B";
-            
             setProject(<Neurolog />)
         }
         if(localStorage.getItem("project") === "Memory"){
-            
             document.getElementById("Memory").style.backgroundColor ="#53E745";
             document.getElementById("MemoryB").style.color ="#15223B";
-            
             setProject(<Memory />)
         }
         if(localStorage.getItem("project") === "SpotifyJazzed"){
-            
             document.getElementById("SpotifyJazzed").style.backgroundColor ="#53E745";
             document.getElementById("SpotifyJazzedB").style.color ="#15223B";
-            
             setProject(<SpotifyJazzed />)
         }
     }, [])
@@ -48,12 +40,11 @@ function Projects(){
                 <h1 className="Page-title">Cody's Project Gallery</h1>
                 <p className="Full-p">
                 <b className="First-word">I </b>am available for projects 
-                and am always looking to expand my body of work. Lorem ipsum
-                dolor sit amet, consectetur adipi scing elit. I am available 
-                for projects and am always looking to expand my body of work. 
-                Lorem ipsum dolor sit amet, consectetur adipi scing elit. I am
-                available for projects and am always looking to expand my body
-                of work. Lorem ipsum dolor sit amet, consectetur adipi scing elit.
+                and am always looking to expand my body of work. For each
+                project in this gallery, I've written up some background
+                information, posted some screenshots of the finished work, listed
+                the most notable skills and technologies used, and provided a link
+                to the GitHub page housing my Code.
                 </p>
             </div>
             <div className="Projects-table">
@@ -78,7 +69,7 @@ function Projects(){
                         
                         localStorage.setItem("project", "Memory");
                         window.location.reload();
-                    })}><li className="Projects-table-item" id="Memory"><b className="Project-choice" id="MemoryB">Memory for SmartTV</b></li></button>
+                    })}><li className="Projects-table-item" id="Memory"><b className="Project-choice" id="MemoryB">Memory</b></li></button>
                     <button className="Table-item-butn" onClick={(() => {
                        
                         document.getElementById("SpotifyJazzed").style.color ="#53E745";

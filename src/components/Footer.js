@@ -9,21 +9,21 @@ function Footer(){
             <div className="Footer-div">
                 <div className="Footer-item">
                     <img src={LinkedIn} alt="LinkedIn" className="Footer-img" />
-                    <p className="Footer-txt">Connect on LinkedIn!</p>
+                    <a className="Footer-txt" href="https://www.linkedin.com/in/cody-d-dalton/">Connect on LinkedIn!</a>
                 </div>
                 <div className="Footer-item">
                     <img src={Github} alt="Github" className="Footer-img" />
-                    <p className="Footer-txt">Browse on Github!</p>
+                    <a className="Footer-txt" href="https://github.com/CodyDDalton">Browse on Github!</a>
                 </div>
             </div>
             <div className="Footer-div">
                 <div className="Footer-item">
                     <img src={Discord} alt="Discord" className="Footer-img" />
-                    <p className="Footer-txt">Chat on Discord!</p>
+                    <a className="Footer-txt" href="https://discord.gg/UqT2tEzE8w">Chat on Discord!</a>
                 </div>
                 <div className="Footer-item">
                     <img src={Email} alt="Email" className="Footer-img" />
-                    <p className="Footer-txt">Send me an Email!</p>
+                    <a className="Footer-txt" href="mailto:cody_d_dalton@proton.me">Send me an Email!</a>
                 </div>
             </div>
             
